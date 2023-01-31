@@ -21,6 +21,10 @@ iframe {
   overflow: hidden;
 }
 
+a {
+  transition: none !important;
+}
+
 .userinfo {
   height: 60px;
   line-height: 60px;
@@ -31,6 +35,11 @@ iframe {
 
 .layui-side-scroll .userinfo {
   border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+  width: 40px;
+  height: 40px;
 }
 
 .text-avatar {
@@ -46,9 +55,4 @@ iframe {
   position: relative;
   top: 4px;
   margin-right: 10px;
-}
-
-.layui-nav-img {
-  width: 40px;
-  height: 40px;
 }
